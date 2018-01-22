@@ -1,0 +1,36 @@
+{
+  "name": "sort-map",
+  "version": "1.0.0",
+  "description": "Sorts a Map by its keys and/or values.",
+  "keywords": [
+    "sort",
+    "map",
+    "keys",
+    "values"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/sort-map",
+  "repository": "lamansky/sort-map",
+  "main": "index.js",
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "dependencies": {
+    "3": "^2.0.0",
+    "m-o": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
